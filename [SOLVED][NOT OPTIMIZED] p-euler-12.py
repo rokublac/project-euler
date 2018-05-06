@@ -1,4 +1,4 @@
-# Still takes too long for my liking (~9 seconds)... hopefully optimize it eventually.
+# Still takes too long for my liking (~9 seconds)... hopefully I'll optimize it eventually.
 
 from math import sqrt
 
