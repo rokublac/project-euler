@@ -2,11 +2,8 @@
 """
 PROJECT EULER - PROBLEM 9 - Special Pythagorean Triplet
 
-a < b < c
+https://projecteuler.net/problem=9
 """
-import time
-
-start_time = time.time()
 
 def checkPythagorean(a,b,c):
     if (a**2) + (b**2) == c**2:
@@ -26,6 +23,5 @@ def main():
 
 main()
 
-print(time.time() - start_time)
     
     
