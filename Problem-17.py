@@ -1,4 +1,4 @@
-# Thanks to the developers and contributors of num2words for there awesome work.
+# Thanks to the developers and contributors of num2words for there awesome work!
 
 '''
 If the numbers 1 to 5 are written out in words: one, two, three, four, five, then there are 3 + 3 + 5 + 4 + 4 = 19 letters used in total.
