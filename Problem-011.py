@@ -3,7 +3,7 @@
 Project Euler - Problem 11
 https://projecteuler.net/problem=11
 
-Thanks to Jason Hill for helping me optimize the algorithm.
+Thanks to Jason Hill's blog for helping me optimize the algorithm.
 
 '''
 gridList = [
