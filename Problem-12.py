@@ -1,4 +1,4 @@
-# Still takes too long (~9 seconds)... hopefully I'll optimize soon.
+# Still takes too long (~9 seconds)... hopefully I'll optimize it eventually..
 
 from math import sqrt
 
@@ -30,25 +30,3 @@ while highestNoOfFactor <= 500:
 print("First triangular number with over 500 divisors: " + str(highestNum))
 print("Number of divisors: " + str(highestNoOfFactor))
 
-# --- Doing it with lists --- #
-
-# triangleSeq = []
-# factors = 0
-# highestNoOfFactor = 1
-# highestNum = 0
-
-# while highestNoOfFactor <= 200:
-# 		# Triangle seq. formula: n(n+1)/2
-# 		triangleSeq.append(int(i * (i+1)/2))
-# 		factors = noOfFactors(triangleSeq[-1])
-
-# 		if factors > highestNoOfFactor:
-# 			highestNoOfFactor = factors
-# 			highestNum = triangleSeq[-1]
-		
-# 		if len(triangleSeq) > 5:
-# 			del triangleSeq[0]
-# 		i += 1
-
-# print(highestNoOfFactor)
-# print(highestNum)
