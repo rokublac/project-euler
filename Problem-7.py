@@ -1,19 +1,12 @@
-# -*- coding: utf-8 -*-
-"""
-***SOLVED***
 
+"""
 PROJECT EULER - PROBLEM 7
 
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 
 What is the 10 001st prime number?
 """
-import time
-import logging
-
-logging.basicConfig(level=logging.DEBUG)
-start_time = time.time()
-
+# This code is not very efficient process, hopefully I'll get back to it.
 def isPrime(num):
 	"""Checks num for primality. Returns bool."""
 
@@ -44,6 +37,6 @@ def generatePrimes(n):
 
 	return primes
 
-logging.debug(generatePrimes(2000000)[-1])
-logging.debug(time.time() - start_time)
+print(generatePrimes(10001)[-1])
+
         
