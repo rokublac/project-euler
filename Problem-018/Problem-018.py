@@ -14,7 +14,7 @@ This will be down with recursion and it ends once the base case it hit. So it co
  
 # Read in pyramid from a text file
 data = []
-file = open('p18.txt')
+file = open('Problem-018.txt')
 # Split each line into its own list
 for line in file:
 	data.append([int(i) for i in line.split(" ")])
