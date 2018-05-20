@@ -13,7 +13,8 @@ from math import sqrt
 # Get all factors of a number
 def factors(num):
     results = set()
-    for i in range(1, int(sqrt(num))):
+
+    for i in range(1, int(sqrt(num) + 1)):
         if num % i == 0:
             results.add(i)
             y = int(num/i)
@@ -56,6 +57,6 @@ while counter < limit:
 		counter = isAmicable(counter)[1]
 	counter += 1
 
-print(amicalList)
+print(sum(amicalList))
 
 	
