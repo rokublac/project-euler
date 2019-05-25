@@ -1,4 +1,4 @@
-# project euler 26
+#  Finding cycles using a dictionary
 
 def cycleFinder(denominator):
   table = {}
