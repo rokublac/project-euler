@@ -1,4 +1,4 @@
-#  Finding cycles using a dictionary
+# Finding the longest recurring cycle in the decimal component of fractions from 1/2...1/1000
 
 def cycleFinder(denominator):
   table = {}
