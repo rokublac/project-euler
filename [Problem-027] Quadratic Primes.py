@@ -2,7 +2,7 @@
 
 from math import sqrt
 
-#prime generator
+#prime generator with sieve of Eratosthenes
 def sieveOfEra(limit):
   primesList = [2]
   for i in range(3,limit+1):
